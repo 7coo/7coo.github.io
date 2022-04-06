@@ -199,7 +199,7 @@
       <p class="index-excerpt">
         <a href="/2022/04/06/2022%E8%99%8E%E7%AC%A6babygame/" target="_self">
           
-          aaa
+          比赛中没写出来，照着别人的wp复现了一下，记录下一些知识点。 题目还算是常规的那种，可以很明显看到漏洞是栈溢出和格式化字符串漏洞。  首先是栈溢出为猜数游戏设置种子，并且泄露出canary的值。然后通过猜数游戏（CDLL库可自行百度），进入13E7函数， 格式化字符串泄露出libcbase和elfbase，并且将ret addr改为sub_13E7函数，重新进入sub_13E7函数。  此时将re
         </a>
       </p>
 
@@ -207,7 +207,7 @@
         
           <div class="post-meta mr-3">
             <i class="iconfont icon-date"></i>
-            <time datetime="2022-04-06 15:38" pubdate>
+            <time datetime="2022-04-06 15:45" pubdate>
               2022-04-06
             </time>
           </div>
