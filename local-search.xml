@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>wp_call_now_button</title>
+    <link href="/2022/04/22/wp-call-now-button/"/>
+    <url>/2022/04/22/wp-call-now-button/</url>
+    
+    <content type="html"><![CDATA[<h1 id="call-now-button-lt-x3D-1-1-1-Reflected-XSS"><a href="#call-now-button-lt-x3D-1-1-1-Reflected-XSS" class="headerlink" title="call now button &lt;&#x3D; 1.1.1 Reflected XSS"></a>call now button &lt;&#x3D; 1.1.1 Reflected XSS</h1><p>In file <code>/call-now-button/src/admin/action/CnbActionViewEdit.php</code> <code>$_REQUEST[&quot;bid&quot;]</code>does not sanitized properly and leading a Reflected XSS.</p><p><img src="/2022/04/22/wp-call-now-button/1.png"></p><p>And <code>$button-&gt;type = &#39;SINGLE&#39; </code>defaultly.</p><p><img src="/2022/04/22/wp-call-now-button/2.png"></p><p>If we want to trigger this xss, we need activate premium first, it’s for free.</p><p><img src="/2022/04/22/wp-call-now-button/3.png"> </p><p>POC:</p><p>According to <a href="https://portswigger.net/research/xss-in-hidden-input-fields">this article</a>, To trigger this xss we need press Shift + Alt + X in windows or Ctrl + Alt + X In macos.</p><figure class="highlight awk"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs awk">http:<span class="hljs-regexp">//</span><span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><span class="hljs-regexp">/wp-admin/</span>admin.php?page=call-now-button&amp;bid=xxxxx<span class="hljs-string">&quot; accesskey=X onclick=alert(1) test=&quot;</span><br></code></pre></td></tr></table></figure><p><img src="/2022/04/22/wp-call-now-button/4.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2022虎符babygame</title>
     <link href="/2022/04/06/2022%E8%99%8E%E7%AC%A6babygame/"/>
     <url>/2022/04/06/2022%E8%99%8E%E7%AC%A6babygame/</url>
