@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://7coo.github.io/2022/06/21/unlink/</loc>
+    <loc>https://7coo.github.io/about/index.html</loc>
+    
+    <lastmod>2022-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://7coo.github.io/2022/04/22/wp-call-now-button/</loc>
     
     <lastmod>2022-06-21</lastmod>
     
@@ -13,25 +22,7 @@
   <url>
     <loc>https://7coo.github.io/2022/04/22/wp-check-email/</loc>
     
-    <lastmod>2022-04-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://7coo.github.io/2022/04/22/wp-call-now-button/</loc>
-    
-    <lastmod>2022-04-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://7coo.github.io/google8f2139c446b64e06.html</loc>
-    
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-06-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,14 +31,23 @@
   <url>
     <loc>https://7coo.github.io/2022/04/06/2022%E8%99%8E%E7%AC%A6babygame/</loc>
     
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-06-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://7coo.github.io/about/index.html</loc>
+    <loc>https://7coo.github.io/2022/06/21/unlink/</loc>
+    
+    <lastmod>2022-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://7coo.github.io/google8f2139c446b64e06.html</loc>
     
     <lastmod>2022-04-06</lastmod>
     
@@ -71,10 +71,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://7coo.github.io/tags/XSS/</loc>
+    <lastmod>2022-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://7coo.github.io/categories/CTF/</loc>
+    <lastmod>2022-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://7coo.github.io/categories/CVE/</loc>
     <lastmod>2022-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
