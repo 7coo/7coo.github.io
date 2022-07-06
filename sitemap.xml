@@ -4,7 +4,25 @@
   <url>
     <loc>https://7coo.github.io/2022/06/30/poison-null-byte/</loc>
     
-    <lastmod>2022-06-30</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://7coo.github.io/2022/06/21/unlink/</loc>
+    
+    <lastmod>2022-07-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://7coo.github.io/2022/07/06/house-of-lore/</loc>
+    
+    <lastmod>2022-07-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://7coo.github.io/2022/06/21/unlink/</loc>
-    
-    <lastmod>2022-06-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://7coo.github.io/google8f2139c446b64e06.html</loc>
     
     <lastmod>2022-04-06</lastmod>
@@ -67,7 +76,7 @@
 
   <url>
     <loc>https://7coo.github.io/</loc>
-    <lastmod>2022-06-30</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,14 +84,14 @@
   
   <url>
     <loc>https://7coo.github.io/tags/pwn/</loc>
-    <lastmod>2022-06-30</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://7coo.github.io/tags/XSS/</loc>
-    <lastmod>2022-06-30</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -91,14 +100,21 @@
   
   <url>
     <loc>https://7coo.github.io/categories/CTF/</loc>
-    <lastmod>2022-06-30</lastmod>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://7coo.github.io/categories/CVE/</loc>
-    <lastmod>2022-06-30</lastmod>
+    <lastmod>2022-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://7coo.github.io/categories/how2heap/</loc>
+    <lastmod>2022-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
